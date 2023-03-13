@@ -3,16 +3,13 @@
 
 
 
+- Como instalar o SonarQube: https://docs.sonarqube.org/9.8/setup-and-upgrade/install-the-server/
 
-
-Feb 15 14:53:46 scratchpad elasticsearch: [1]: max virtual memory areas vm.max_map_count [65530] is too low, increase to at least [262144]
-
-https://stackoverflow.com/questions/51445846/elasticsearch-max-virtual-memory-areas-vm-max-map-count-65530-is-too-low-inc
-
-
-
-
-Como instalar o SonarQube
+- Adicionar dependencia Jacoco
+- Configurar o plugin Jacoco
+- Gerar o Token no SonarQube
+- Gerar o relatório do Sonar
+- Gerar o relatório Jacoco
 
 
 ```
@@ -101,14 +98,11 @@ volumes:
 
 
 - mvn clean install
--  mvn sonar:sonar -Dsonar.host.url=http://localhost:9000 -Dsonar.login=sqa_8d7e8e6913f1c2a7e103b14f86910e33cb9afee8
-
-
-
-
-
-
-
+- mvn sonar:sonar -Dsonar.host.url=http://localhost:9000 -Dsonar.login=sqa_8d7e8e6913f1c2a7e103b14f86910e33cb9afee8
 
 ```
+
+Feb 15 14:53:46 scratchpad elasticsearch: [1]: max virtual memory areas vm.max_map_count [65530] is too low, increase to at least [262144]
+
+https://stackoverflow.com/questions/51445846/elasticsearch-max-virtual-memory-areas-vm-max-map-count-65530-is-too-low-inc
 
