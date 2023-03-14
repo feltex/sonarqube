@@ -2,6 +2,14 @@
 
 
 
+## Projeto Base
+
+Server status
+[https://github.com/feltex/server-status](https://github.com/feltex/server-status)
+
+
+---
+
 
 - Como instalar o SonarQube: https://docs.sonarqube.org/9.8/setup-and-upgrade/install-the-server/
 
@@ -68,6 +76,7 @@
 
 
 ### SonarQube no Docker
+
 ---
 
 
