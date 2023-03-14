@@ -64,7 +64,7 @@ Server status
             </plugin>
 </build>
 
-
+```
 
 ```
    <execution>
@@ -87,9 +87,6 @@ Server status
                             </rules>
                         </configuration>
                     </execution>
-
-
-```
 
 
 ```
