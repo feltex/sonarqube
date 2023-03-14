@@ -1,4 +1,4 @@
-# Sonar qube
+# Sonar Qube
 
 
 
@@ -13,10 +13,11 @@ Server status
 
 - Como instalar o SonarQube: https://docs.sonarqube.org/9.8/setup-and-upgrade/install-the-server/
 
-- Adicionar dependencia Jacoco
-- Configurar o plugin Jacoco
+- Acessar o SonarQube
 - Gerar o Token no SonarQube
 - Gerar o relatório do Sonar
+- Adicionar dependência Jacoco
+- Configurar o plugin Jacoco
 - Gerar o relatório Jacoco
 
 
