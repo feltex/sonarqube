@@ -60,14 +60,7 @@ Server status
                             <goal>report</goal>
                         </goals>
                     </execution>
-                </executions>
-            </plugin>
-</build>
-
-```
-
-```
-   <execution>
+                       <execution>
                         <id>jacoco-check</id>
                         <goals>
                             <goal>check</goal>
@@ -87,7 +80,9 @@ Server status
                             </rules>
                         </configuration>
                     </execution>
-
+                </executions>
+            </plugin>
+</build>
 
 ```
 
@@ -147,6 +142,22 @@ volumes:
  
 
 ### O que pode dar errado
+
+
+#### Warn
+
+```
+[WARNING] The artifact org.codehaus.mojo:sonar-maven-plugin:jar:3.9.1.2184 has been relocated to org.sonarsource.scanner.maven:sonar-maven-plugin:jar:3.9.1.2184: SonarQube plugin was moved to SonarSource organisation
+
+```
+
+ Atualize a dependência
+ 
+ 
+ 
+ 
+
+
 
 
  Caso você não consiga iniciar o SonarQube por problema de memória virtual
