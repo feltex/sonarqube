@@ -1,4 +1,4 @@
-# Sonar Qube
+# SonarQube
 
   Como configurar o SonarQube no seu projeto Java.
 
