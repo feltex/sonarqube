@@ -4,6 +4,11 @@
 
 ![alt text](Sonarqube.png)
 
+
+## Vídeo no youtube
+
+[sonar](https://www.youtube.com/watch?v=dnvHgocLupM)
+
 ## Projeto Base
 
 Server status
